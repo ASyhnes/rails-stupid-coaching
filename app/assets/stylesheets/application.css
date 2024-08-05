@@ -1,15 +1,30 @@
 /*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+* Il s'agit d'un fichier manifeste qui sera compilé dans application.css, qui inclura tous les fichiers
+* listés ci-dessous.
+*
+* Tout fichier CSS (et SCSS, s'il est configuré) dans ce répertoire, lib/assets/stylesheets, ou le répertoire vendor/assets/stylesheets de tout plugin peut être référencé ici en utilisant un chemin relatif.
+*
+* Vous êtes libre d'ajouter des styles à l'échelle de l'application à ce fichier et ils apparaîtront au bas du
+* fichier compilé afin que les styles que vous ajoutez ici aient la priorité sur les styles définis dans tout autre fichier CSS
+* de ce répertoire. Les styles de ce fichier doivent être ajoutés après la dernière instruction require_*.
+* Il est généralement préférable de créer un nouveau fichier par portée de style.
+*
+*= require_tree .
+*= require_self
+*/
+.askCard{
+  background-color: #FFFEFE;
+  padding: 20px;
+  height: 100px;
+  margin: 5px;
+  align-content: center;
+  border-left: solid 10px #DDDCDC;
+}
+.answerCard {
+  background-color: #FEFFE0;
+  padding: 20px;
+  height: 100px;
+  margin: 5px;
+  align-content: center;
+  border-left: solid 10px #DDDCDC;
+}
